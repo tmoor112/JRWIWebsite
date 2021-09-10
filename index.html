@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Just Roll With It</title>
+    <meta name="Home Page" content="3135 Assignment 2">
+    <meta charset="UTF-8">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="JRWI.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <!--Page container and content wrap divs so that we can place header and footer properly-->
+    <div id="page-container">
+        <div id="content-wrap">
+            <header id="header">
+                <img src="Logo.png" alt="Logo" class="logo">
+            </header>
+            <div class="nav">
+                <ul> <!--Nav bar, current tab is marked as active and red-->
+                    <li><a class="active" href="index.html">Main Page</a></li>
+                    <li><a href="AboutUs.html">About</a></li>
+                    <li><a href="PreviousEvents.html">Previous Events</a></li>
+                    <li><a href="Media.html">Media</a></li>
+                    <li><a href="EventCircuit.html">JRWI Circuit</a></li>
+                </ul>
+            </div><br><br>
+            <hr>
+            <main>
+                <h1>Just Roll With It!</h1>
+                <!--Class creates a red box with a border that surrounds the content-->
+                <div class="infobox" >
+                    <h2 class="center">Are you looking for competition? Tired of beating your friends and want to try against the best? Come to Just Roll With It!, North
+                        Carolina's premier Smash Ultimate tournament series featuring talent from all over the Southeast!</h2>
+                    <!--Class makes it so that the image inside is smaller since it is too big otherwise-->
+                    <ul id="slider" class="media">
+                        <li><img src="DSC_0040.JPG" alt="Members of the organization team sitting behind the registration desk" class="small"> </li>
+                        <li><img src="DSC_0050.JPG" alt="A camera takes a photo of the production team capturing an imporatnt match" class="small"></li>
+                        <li><video controls><source src="jrwi6.mp4" type="video/mp4"></video></li>
+                        <li><img src="image0.jpg" alt="A camera takes a photo of the production team capturing an imporatnt match" class="small"></li>
+                        <li><img src="Ev7dZb9WEAEUlhv.jpg" alt="A man smiles and stands in front of the Just Roll With It! Flag" class="small"></li>
+                        <li><video controls><source src="jrwi7.mp4" type="video/mp4"></video></li>
+                        
+                    </ul>
+                </div>
+            </main>
+        <footer id="Validation">
+            <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+        </footer>
+        </div>
+    </div>
+</body>
+</html>

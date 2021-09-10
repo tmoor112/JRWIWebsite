@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About Us</title>
+    <meta name="About Section" content="3135 Assignment 2">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="JRWI.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="About.js"></script>
+</head>
+
+<body>
+    <!--Page container and content wrap divs so that we can place header and footer properly-->
+    <div id="page-container">
+        <div id="content-wrap">
+            <header id="header">
+                <img src="Logo.png" alt="Logo" class="logo">
+            </header>
+            <div class="nav">
+                <ul> <!--Nav bar, current tab is marked as active and red-->
+                    <li><a href="index.html">Main Page</a></li>
+                    <li><a class="active" href="AboutUs.html">About</a></li>
+                    <li><a href="PreviousEvents.html">Previous Events</a></li>
+                    <li><a href="Media.html">Media</a></li>
+                    <li><a href="EventCircuit.html">JRWI Circuit</a></li>
+                </ul>
+            </div><br><br>
+            <hr>
+            
+            <main>
+            <h1>About Just Roll With It!</h1>
+            
+            <div class="infobox">
+                <!--space class clears formatting after the divs so that unwanted floats don't ruin the box-->
+                <div class="space">
+                    <!--column makes things float left-->
+                    <ul id="about">
+                        <li><a href="#" title="about">Just Roll With It!</a></li>
+                        <li><a href="#" title="hosts">The Hosts</a></li>
+                    </ul>
+                    <div class="column">
+                        <p id="1">Just Roll With It! is North Carolina's longest running and most prestigious Smash Ultimate tournament series based out of Raleigh, North Carolina. Attracting players from across the entire Southeast region of the United States, the series has exploded in popularity and has become a staple for events.
+                            The series is a biannual event, hosted by Kamaran McClanahan and his team.
+                        </p>
+                        <!--nopad class removes the padding from the paragraph, making it so that it doesn't bleed through the box-->
+                        <p class="nopad" id="2">Having been around since October of 2016, the series started as a small tournament for Smash 4. Since then, the event has shot up in popularity and has become an event that attracts players from all over the globe.
+                           Featured and globally ranked players from as far away as Japan have attended the massive event.
+                       </p>
+                       <p id="3">
+                           Just Roll With It! as a series is currently in the middle of an event circuit. By participating in sanctioned events, players are able to gain points in order to be invited to the circuit finale in Raleigh. The top 23 players and the winner
+                           of the Arcadian tournament are all invited for a showdown of the best that North Carolina has to offer!
+                       </p>
+                       
+                    </div>
+                    <!--Right makes it float right so that there's whitespace between text and video-->
+                    <div class="right">
+                        <p class="nopad" id="caption">Just Roll With It! 7 Trailer</p>
+                            <video class="center" controls ><source src="jrwi7trailer.mp4" type="video/mp4"></video>
+                    </div>
+                
+                
+                </div>
+            </div>
+            </main>
+        </div>
+        <footer id="Validation">
+            <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+        </footer>
+    </div>
+</body>
+</html>

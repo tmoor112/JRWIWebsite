@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Previous Events</title>
+        <meta name="Previous Events" content="3135 Assignment 2">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="JRWI.css">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="Events.js"></script>
+    </head>
+    
+<body>
+    <!--Page container and content wrap divs so that we can place header and footer properly-->
+    <div id="page-container">
+        <div id="content-wrap">
+            <header id="header">
+                <img src="Logo.png" alt="Logo" class="logo">
+            </header>
+            <div class="nav">
+                <ul> <!--Nav bar, current tab is marked as active and red-->
+                    <li><a href="index.html">Main Page</a></li>
+                    <li><a href="AboutUs.html">About</a></li>
+                    <li><a class="active" href="PreviousEvents.html">Previous Events</a></li>
+                    <li><a href="Media.html">Media</a></li>
+                    <li><a href="EventCircuit.html">JRWI Circuit</a></li>
+                </ul>
+            </div><br><br>
+            <hr>
+            <main>
+                <h2>Search Previous Tournaments</h2>
+            
+                <!--This is a list made based on the w3c filtered list documentation. This will become a jquery sorted list that looks similar but more functionality-->
+                <div class="infobox">
+                    <div class="space">
+                        <div class="column">
+                            <input type="text" id="myInput" placeholder="Search for past events.." class="column">
+                            <br><br><br>
+                        <ol id="eventList">
+                            
+                            <li><a href="#" title="12">Just Roll With It! 12</a></li>
+                            <li><a href="#" title="dont">Don't Roll With It!</a></li>
+                            <li><a href="#" title="11">Just Roll With It! 11</a></li>
+                            <li><a href="#" title="10">Just Roll With It! 10</a></li>
+                            <li><a href="#" title="9">Just Roll With It! 9</a></li>
+                            <li><a href="#" title="8">Just Roll With It! 8</a></li>
+                            <li><a href="#" title="7">Just Roll With It! 7</a></li>
+                            <li><a href="#" title="6-5">Just Roll With It! 6.5: Chao Garden</a></li>
+                            <li><a href="#" title="6">Just Roll With It! 6</a></li>
+                            <li><a href="#" title="5">Just Roll With It! 5</a></li>
+                            <li><a href="#" title="4">Just Roll With It! 4</a></li>
+                            <li><a href="#" title="3">Just Roll With It! 3</a></li>
+                            <li><a href="#" title="2">Just Roll With It! 2</a></li>
+                            <li><a href="#" title="1">Just Roll With It! 1</a></li>
+                            
+                        </ol>
+                        </div>
+                        
+                        <div class="right">
+                            <img src="Logo.png" alt="The event logo is displayed over the event information" class="center">
+                            <h1>
+                                Just Roll With It! 12
+                            </h1>
+                            
+                            <h3>
+                                426 entrants <br> January 11th, 2020
+                            </h3>
+                            <p>
+                                Singles Winner: Wrath
+                                <br>
+                                Doubles Winner: Wrath and Kola 
+                            </p>
+                            <h2>
+                                <a href="https://smash.gg/tournament/just-roll-with-it-12-1/details"> Click me to go to the event!</a>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <br>
+        </div>
+        <footer id="Validation">
+            <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+        </footer>
+    </div>
+</body>
+</html>
